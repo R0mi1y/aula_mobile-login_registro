@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.example.applicationteste.app-mergeDebugResources-26:/values-en-rUS/values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\auifg\\AndroidStudioProjects\\ApplicationTeste\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
+                    "from": {
+                        "startLines": "3,2",
+                        "startColumns": "4,4",
+                        "startOffsets": "106,57",
+                        "endColumns": "46,47",
+                        "endOffsets": "148,100"
+                    },
+                    "to": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,102",
+                        "endColumns": "46,47",
+                        "endOffsets": "97,145"
+                    }
+                }
+            ]
+        }
+    ]
+}

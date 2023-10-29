@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:windowFullscreen="true">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="2691dp"
+        android:layout_height="2116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:srcCompat="@drawable/bg" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/image_removebg_preview" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="91dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/editTextTextName"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/place_text"
+                android:backgroundTint="#FF8400"
+                android:drawableRight="@drawable/baseline_person_24"
+                android:ems="10"
+                android:hint="Nome de usuário"
+                android:inputType="text"
+                android:textColorHint="#E4DADA" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/editTextTextEmailAddress"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/place_text"
+                android:backgroundTint="#FF8400"
+                android:drawableRight="@drawable/baseline_email_24"
+                android:ems="10"
+                android:hint="E-mail"
+                android:inputType="textEmailAddress"
+                android:textColorHint="#E4DADA" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/editTextTextPhone"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/place_text"
+                android:backgroundTint="#FF8400"
+                android:drawableRight="@drawable/baseline_phone_enabled_24"
+                android:ems="10"
+                android:hint="Telefone"
+                android:inputType="phone"
+                android:textColorHint="#E4DADA" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="22dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <EditText
+                android:id="@+id/editTextTextPassword"
+                android:layout_width="322dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/place_text"
+                android:backgroundTint="#FF8400"
+                android:drawableRight="@drawable/baseline_key_24"
+                android:ems="10"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:textColor="#ECCFCF"
+                android:textColorHint="#E1DDDD" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="104dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Switch
+                android:id="@+id/switch1"
+                android:layout_width="332dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Aceito todos os termos"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:id="@+id/buttonRegister"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="#EC6306"
+                android:text="Cadastre-se"
+                android:textColorHighlight="#B63D3D"
+                android:textColorLink="#A54040" />
+
+            <Space
+                android:layout_width="37dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <TextView
+                android:id="@+id/meuTextoBotao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:fontFamily="monospace"
+                android:onClick="onTextViewClick"
+                android:text="Esqueci a senha"
+                android:textColor="#FFFFFF"
+                android:textColorHint="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
